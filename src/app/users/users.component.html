@@ -1,0 +1,15 @@
+<br><br>
+<div id="container"> 
+<table id="users"><br>
+  <tbody>
+    <tr>
+      <th>User</th>
+      <th>Password</th>
+    </tr><br>
+    <tr *ngFor="let u of user">
+      <td>{{ u.value.user }} </td><br>
+      <td>{{ u.value.password }}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
